@@ -1,0 +1,9 @@
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    /* Styles for large desktops */
+    h1
+    {
+      color: black;
+    }
+  }
+  
