@@ -4,9 +4,634 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link href="./icons/css/boxicons.css" rel='stylesheet'>
+    <link rel="stylesheet" href="owl/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello</h1>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="https://joytourandtravels.com/landing/clonelogo.png" width="100" alt="" srcset="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2 rounded-pill " type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success rounded-pill" type="submit">
+                    <i class='bx bx-search-alt-2'></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            
+            <div class="h-100 w-100 d-flex justify-content-center align-items-center flex-column">
+              <h1 class="text-white fw-bolder fs-1 mt-5">Delights of Kashmir | A Paradise on Earth</h1>
+              <h4 class="text-white fw-normal">7 days & 6 nights |
+                1D
+                Srinagar
+                2D
+                Pahalgam
+                4D
+                Srinagar</h4>
+                <h5 class="text-white fw-normal">
+                  <b>INR 32,599</b>
+                  <del>INR 38,689</del>
+                </h5>
+                <button class="btn button rounded-pill px-5 pt-3 pb-3 text-white ">Request callback</button>
+            </div>
+           
+          
+          </div>
+          <div class="carousel-item">
+            <div class="h-100 w-100 d-flex justify-content-center align-items-center flex-column">
+              <h1 class="text-white fw-bolder fs-1 mt-5">Delights of Kashmir | A Paradise on Earth</h1>
+              <h4 class="text-white fw-normal">7 days & 6 nights |
+                1D
+                Srinagar
+                2D
+                Pahalgam
+                4D
+                Srinagar</h4>
+                <h5 class="text-white fw-normal">
+                  <b>INR 32,599</b>
+                  <del>INR 38,689</del>
+                </h5>
+                <button class="btn button rounded-pill px-5 pt-3 pb-3 text-white ">Request callback</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="h-100 w-100 d-flex justify-content-center align-items-center flex-column">
+              <h1 class="text-white fw-bolder fs-1 mt-5">Delights of Kashmir | A Paradise on Earth</h1>
+              <h4 class="text-white fw-normal">7 days & 6 nights |
+                1D
+                Srinagar
+                2D
+                Pahalgam
+                4D
+                Srinagar</h4>
+                <h5 class="text-white fw-normal">
+                  <b>INR 32,599</b>
+                  <del>INR 38,689</del>
+                </h5>
+                <button class="btn button rounded-pill px-5 pt-3 pb-3 text-white ">Request callback</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<!-- fadebox -->
+<div class="trip-0 w-100  position-absolute row m-0 p-0 pt-5 pb-5 text-white text-center" >
+
+</div>
+
+<!--  -->
+
+
+      <!-- trip -->
+       <div class="trip row m-0 p-0 pt-5 pb-5 text-white text-center">
+        <div class="col-6 col-md-3 mt-3 mt-md-0">
+          
+        <div class="p-0 m-0 d-flex justify-content-center">
+         <div>
+          <i class='bg-gray p-3 rounded-pill bx bxl-google'></i>
+         </div>
+         <div>
+          <h5 class="text-start p-0 m-0 mx-2 fs-6">4.5/5</h5>
+          <small class="p-0 m-0 text-start mx-2">Trip Advisor</small>
+         </div>
+        </div>
+          
+        </div>
+     
+        <div class="col-6 col-md-3 mt-3 mt-md-0">
+          
+          <div class="p-0 m-0 d-flex justify-content-center">
+           <div>
+            <i class='bg-gray p-3 rounded-pill bx bxs-star'></i>
+           </div>
+           <div>
+            <h5 class="text-start p-0 m-0 mx-2 fs-6">4.5/5</h5>
+            <small class="p-0 m-0 text-start mx-2">Trip Advisor</small>
+           </div>
+          </div>
+            
+          </div>
+
+          <div class="col-6 col-md-3 mt-3 mt-md-0">
+          
+            <div class="p-0 m-0 d-flex justify-content-center">
+             <div>
+              <i class='bg-gray p-3 rounded-pill bx bx-star'></i>
+             </div>
+             <div>
+              <h5 class="text-start p-0 m-0 mx-2 fs-6">4.5/5</h5>
+              <small class="p-0 m-0 text-start mx-2">Trip Advisor</small>
+             </div>
+            </div>
+              
+            </div>
+
+            <div class="col-6 col-md-3 mt-3 mt-md-0">
+          
+              <div class="p-0 m-0 d-flex justify-content-center">
+               <div>
+                <i class='bg-gray p-2 fs-1 rounded-pill bx bxl-trip-advisor'></i>
+               </div>
+               <div>
+                <h5 class="text-start p-0 m-0 mx-2 fs-6">4.5/5</h5>
+                <small class="p-0 m-0 text-start mx-2">Trip Advisor</small>
+               </div>
+              </div>
+                
+              </div>
+     
+      </div>
+
+      <!-- card -->
+      <div class="m-2 md-m-5">
+        <div class="card m-1 m-md-5 ">
+          <div class="card-body" style="background: rgba(128, 128, 128, 0.293);">
+            <h5 class="fw-bolder">Kashmir Tour Packages | Upto 40% Off</h5>
+            <p>Kashmir tour packages - Browse through a wide range of Kashmir packages with exciting offers at Thrillophilia. Book customized Kashmir</p>
+          </div>
+        </div>
+      </div>
+       <div class="divider"></div>
+
+       <div class="mx-5">
+        <h3>Staff
+          <b style="color: #fcaf17;">Handpicked</b>
+          </h3>
+
+
+          <div class="owl-carousel mt-4">
+           
+            <div class="card " >
+              <img src="https://via.placeholder.com/286x180" class="card-img-top" alt="Card Image">
+              <div class="card-body">
+                <h5 class="card-title">Card Title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn button">Go somewhere</a>
+              </div>
+            </div>
+
+            <div class="card " >
+              <img src="https://via.placeholder.com/286x180" class="card-img-top" alt="Card Image">
+              <div class="card-body">
+                <h5 class="card-title">Card Title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn button">Go somewhere</a>
+              </div>
+            </div>
+
+            <div class="card" >
+              <img src="https://via.placeholder.com/286x180" class="card-img-top" alt="Card Image">
+              <div class="card-body">
+                <h5 class="card-title">Card Title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn button">Go somewhere</a>
+              </div>
+            </div>
+
+            <div class="card" >
+              <img src="https://via.placeholder.com/286x180" class="card-img-top" alt="Card Image">
+              <div class="card-body">
+                <h5 class="card-title">Card Title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn button">Go somewhere</a>
+              </div>
+            </div>
+
+            <div class="card" >
+              <img src="https://via.placeholder.com/286x180" class="card-img-top" alt="Card Image">
+              <div class="card-body">
+                <h5 class="card-title">Card Title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn button">Go somewhere</a>
+              </div>
+            </div>
+
+
+
+            
+          </div>
+      
+        </div>
+
+
+        <div class="divider"></div>
+
+        <div class="mx-5">
+         <h3>Staff
+           <b style="color: #fcaf17;">Handpicked 1</b>
+           </h3>
+ 
+ 
+           <div class="owl-carousel mt-4">
+            
+             <div class="card " >
+               <img src="https://via.placeholder.com/286x180" class="card-img-top" alt="Card Image">
+               <div class="card-body">
+                 <h5 class="card-title">Card Title</h5>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="#" class="btn button">Go somewhere</a>
+               </div>
+             </div>
+ 
+             <div class="card " >
+               <img src="https://via.placeholder.com/286x180" class="card-img-top" alt="Card Image">
+               <div class="card-body">
+                 <h5 class="card-title">Card Title</h5>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="#" class="btn button">Go somewhere</a>
+               </div>
+             </div>
+ 
+             <div class="card" >
+               <img src="https://via.placeholder.com/286x180" class="card-img-top" alt="Card Image">
+               <div class="card-body">
+                 <h5 class="card-title">Card Title</h5>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="#" class="btn button">Go somewhere</a>
+               </div>
+             </div>
+ 
+             <div class="card" >
+               <img src="https://via.placeholder.com/286x180" class="card-img-top" alt="Card Image">
+               <div class="card-body">
+                 <h5 class="card-title">Card Title</h5>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="#" class="btn button">Go somewhere</a>
+               </div>
+             </div>
+ 
+             <div class="card" >
+               <img src="https://via.placeholder.com/286x180" class="card-img-top" alt="Card Image">
+               <div class="card-body">
+                 <h5 class="card-title">Card Title</h5>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="#" class="btn button">Go somewhere</a>
+               </div>
+             </div>
+ 
+ 
+ 
+             
+           </div>
+       
+         </div>
+
+
+         <div class="card bg-dark m-5 p-3">
+          <div class="card-body">
+            <div><h4 class="text-white">Bigger Group? Get special offers up to 50% Off!</h4>
+            <p class="text-white">We create unforgettable adventures, customised for your group.</p>
+          <button class="btn button p-2">Get A Callback</button> 
+          </div>
+            <div></div>
+          </div>
+
+         </div>
+
+
+         <div class="divider"></div>
+
+         <div class="mx-5">
+          <h3>Staff
+            <b style="color: #fcaf17;">Handpicked 2</b>
+            </h3>
+  
+  
+            <div class="owl-carousel mt-4">
+             
+              <div class="card " >
+                <img src="https://via.placeholder.com/286x180" class="card-img-top" alt="Card Image">
+                <div class="card-body">
+                  <h5 class="card-title">Card Title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn button">Go somewhere</a>
+                </div>
+              </div>
+  
+              <div class="card " >
+                <img src="https://via.placeholder.com/286x180" class="card-img-top" alt="Card Image">
+                <div class="card-body">
+                  <h5 class="card-title">Card Title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn button">Go somewhere</a>
+                </div>
+              </div>
+  
+              <div class="card" >
+                <img src="https://via.placeholder.com/286x180" class="card-img-top" alt="Card Image">
+                <div class="card-body">
+                  <h5 class="card-title">Card Title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn button">Go somewhere</a>
+                </div>
+              </div>
+  
+              <div class="card" >
+                <img src="https://via.placeholder.com/286x180" class="card-img-top" alt="Card Image">
+                <div class="card-body">
+                  <h5 class="card-title">Card Title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn button">Go somewhere</a>
+                </div>
+              </div>
+  
+              <div class="card" >
+                <img src="https://via.placeholder.com/286x180" class="card-img-top" alt="Card Image">
+                <div class="card-body">
+                  <h5 class="card-title">Card Title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn button">Go somewhere</a>
+                </div>
+              </div>
+  
+  
+  
+              
+            </div>
+        
+          </div>
+
+
+
+          <div class="divider"></div>
+
+          <div class="mx-5">
+           <h3>Staff
+             <b style="color: #fcaf17;">Handpicked</b>
+             </h3>
+   
+   
+             <div class="owl-carousel mt-4">
+              
+               <div class="card " >
+                 <img src="https://via.placeholder.com/286x180" class="card-img-top" alt="Card Image">
+                 <div class="card-body">
+                   <h5 class="card-title">Card Title</h5>
+                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                   <a href="#" class="btn button">Go somewhere</a>
+                 </div>
+               </div>
+   
+               <div class="card " >
+                 <img src="https://via.placeholder.com/286x180" class="card-img-top" alt="Card Image">
+                 <div class="card-body">
+                   <h5 class="card-title">Card Title</h5>
+                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                   <a href="#" class="btn button">Go somewhere</a>
+                 </div>
+               </div>
+   
+               <div class="card" >
+                 <img src="https://via.placeholder.com/286x180" class="card-img-top" alt="Card Image">
+                 <div class="card-body">
+                   <h5 class="card-title">Card Title</h5>
+                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                   <a href="#" class="btn button">Go somewhere</a>
+                 </div>
+               </div>
+   
+               <div class="card" >
+                 <img src="https://via.placeholder.com/286x180" class="card-img-top" alt="Card Image">
+                 <div class="card-body">
+                   <h5 class="card-title">Card Title</h5>
+                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                   <a href="#" class="btn button">Go somewhere</a>
+                 </div>
+               </div>
+   
+               <div class="card" >
+                 <img src="https://via.placeholder.com/286x180" class="card-img-top" alt="Card Image">
+                 <div class="card-body">
+                   <h5 class="card-title">Card Title</h5>
+                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                   <a href="#" class="btn button">Go somewhere</a>
+                 </div>
+               </div>
+   
+   
+   
+               
+             </div>
+         
+           </div>
+
+<div class="divider"></div>
+           <div class="text-center">
+            <h2><b>Tourism Board Alliances</b></h2>
+          </div>
+
+          <div class="owl-carousel mt-4 ">
+              
+            
+              <img src="./images/ddd.jpg" alt="" width="100px" >
+          
+           
+              <img src="./images/ddd.jpg" alt="" width="100px">
+         
+           
+              <img src="./images/ddd.jpg" alt="" width="100px">
+           
+              <img src="./images/ddd.jpg" alt="" width="100px">
+            
+              <img src="./images/ddd.jpg" alt="" width="100px">
+         
+          </div>
+          <div class="divider"></div>
+
+
+           <footer class="footer-section mt-3">
+            <div class="container">
+                <div class="footer-cta pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="cta-text">
+                                    <h4>Find us</h4>
+                                    <span>Main Chowk, Nawab Bazaar, Srinagar</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-phone"></i>
+                                <div class="cta-text">
+                                    <h4>Call us</h4>
+                                    <span>+91-9906786356</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="far fa-envelope-open"></i>
+                                <div class="cta-text">
+                                    <h4>Mail us</h4>
+                                    <span>info@joytourandtravels.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-content pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-logo">
+                                    <a href="/"><img src="assets/img/logo.png" class="img-fluid" alt="logo"></a>
+                                </div>
+                                <div class="footer-text">
+                                    <p>Indian travel agency/tour operators for fulfill your complete travel requirement. Find travel in India, Joy tour and Travels offers you various
+                                       choices at little amount backed by a good service. </p>
+                                </div>
+                                <div class="footer-social-icon">
+                                    <span>Follow us</span>
+                                    <a href="https://www.facebook.com/EasyTransportationServices"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                    <a href="https://twitter.com/joy_info"><i class="fab fa-twitter twitter-bg"></i></a>
+                                    <a href="https://www.linkedin.com/company/joy-tour-&-travels"><i class="fab fa-linkedin facebook-bg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Useful Links</h3>
+                                </div>
+                                <ul>
+                                  <li><a href="https://joytourandtravels.com/">Home</a></li>
+                                  <li><a href="https://joytourandtravels.com/about">About</a></li>
+                                  <li><a href="https://www.joytourandtravels.com/kashmir">Packages</a></li>
+                                  <li><a href="https://www.joytourandtravels.com/location">Locations</a></li>
+                                  <li><a href="https://www.joytourandtravels.com/location/">Contact</a></li>
+                                  <li><a href="https://joytourandtravels.com/about">About us</a></li>
+                                  <li><a href="https://www.joytourandtravels.com/car-rentals">Car Rentals</a></li>
+                                  <li><a href="https://www.joytourandtravels.com/feedback">Feedback</a></li>
+                                  <li><a href="#">Call us</a></li>
+                                  <li><a href="tel:/+91-9906786356">Latest News</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Subscribe</h3>
+                                </div>
+                                <div class="footer-text mb-25">
+                                    <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                </div>
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input type="email" required  placeholder="Email Address">
+                                        <button><i class="fab fa-telegram-plane"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                            <div class="copyright-text">
+                                <p>Copyright &copy; 2024, All Right Reserved <a href="https://joytourandtravels.com">Joy Tour & Travels</a></p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                            <div class="footer-menu">
+                                <ul >
+                                  <li class="text-light">Designed & Developed by @ </li>
+                                  <li><a href="https://joytourandtravels.com" target="_blank">Joy Tour & Travels</a></li>
+                              
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+   <script src="./js/jquery.js"></script>
+    <script src="./owl/owlcarousel/owl.carousel.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:4,
+            nav:true,
+            loop:true
+        }
+    }
+})
+      });
+    </script>
 </body>
 </html>

@@ -1,8 +1,10 @@
 /* Extra small devices (phones, less than 576px) */
 @media (max-width: 575.98px) {
     /* Styles for phones */
-    h1
+    .carousel-item img
     {
-      color: orange;
-    }
+       object-fit: cover;
+       width: 100%;
+       height: 100vh;
+    } 
   }

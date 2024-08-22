@@ -1,8 +1,11 @@
   /* Medium devices (tablets, 768px and up) */
   @media (min-width: 768px) and (max-width: 991.98px) {
     /* Styles for tablets */
-    h1
+   
+    .carousel-item img
     {
-      color: green;
-    }
+       object-fit: cover;
+       width: 100%;
+       height: 100vh;
+    } 
   }
